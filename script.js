@@ -47,3 +47,14 @@ function displayTasks () {
     taskList.appendChild(li)   
     })
 }
+
+// Function to remove a task from the list when the "√" button is clicked
+function removeTask (index){
+     // Remove the task at the given index from the array
+     tasks.splice(index, 1);
+    
+     //Call the function to update the task list display
+     displayTasks()
+
+     
+}
