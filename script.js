@@ -41,9 +41,9 @@ function displayTasks () {
         )
         
         // Set the inner HTML of the <li> element with task text and a remove button
-        li.innerHTML=`${task} <button class='btn btn-dark btn-sm' onclick='removeTask(${index})'>√ </button>`;
-         
-    
-
+        li.innerHTML=`${task} <button class='btn btn-light btn-sm' onclick='removeTask(${index})'>√ </button>`;
+      
+    // Append the new task to the task list
+    taskList.appendChild(li)   
     })
 }
