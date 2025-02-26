@@ -17,3 +17,33 @@ document.getElementById('addTaskBtn').addEventListener('click', function() {
     }
 
 })
+
+
+// Function to display the tasks from tasks[] in the Unordered List below
+function displayTasks () {
+    // Select the unordered list (tasklist) in the HTML
+    let taskList = document.getElementById('taskList')
+
+    //Clear the existing task list before updating it
+    taskList.innerHTML = ''
+
+    // Loop through each task in the array and create a list item
+    tasks.forEach ((task, index) => {
+        // Create a new <li> element for each task
+        let li = document.createElement('li')
+
+        // Add Bootstrap classes for styling
+        li.classList.add(
+            'list-group-item',
+            'd-flex',
+            'justify-content-between',
+            'align-items-center'
+        )
+        
+        // Set the inner HTML of the <li> element with task text and a remove button
+        li.innerHTML=`${task} <button class='btn btn-dark btn-sm' onclick='removeTask(${index})'>√ </button>`;
+         
+    
+
+    })
+}
