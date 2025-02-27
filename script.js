@@ -1,3 +1,13 @@
+const weekDay = prompt('What day is it today?');
+if (weekDay === 'Monday') {
+    console.log()
+}
+
+
+
+
+
+
 //Initialize an array to store tasks
 let tasks = []
 
