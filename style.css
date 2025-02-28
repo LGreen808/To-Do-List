@@ -1,5 +1,7 @@
 body {
     background: url(imgs/Screen-Shot-2023-12-22-at-4.13.58-PM\ \(1\).png);
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
 h1 {
