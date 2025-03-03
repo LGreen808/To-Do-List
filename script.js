@@ -1,6 +1,7 @@
+document.getElementById('weekDay');
 const weekDay = prompt('What day is it today?');
 if (weekDay === 'Monday') {
-    console.log()
+    console.log(weekDay);
 }
 
 
