@@ -26,7 +26,7 @@ document.getElementById('addTaskBtn').addEventListener('click', function() {
      displayTasks()
     }
 
-})
+}) document.getElementById('addTaskBtn').addEventListener('keydown')
 
 
 // Function to display the tasks from tasks[] in the Unordered List below
