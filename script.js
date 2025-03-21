@@ -13,7 +13,7 @@ if (weekDay === 'Monday') {
 let tasks = []
 
 //Add an event listener to add tasks to the add task btn
-document.getElementById('addTaskBtn').addEventListener('click', function() {
+document.getElementById('addTaskBtn').addEventListener('click', 'enter', function() {
     //Storing text-value from input box as a variable 'taskInput'
     let taskInput = document.getElementById('taskInput').value
 
