@@ -13,7 +13,7 @@ if (weekDay === 'Monday') {
 let tasks = []
 
 //Add an event listener to add tasks to the add task btn
-document.getElementById('addTaskBtn').addEventListener('click', 'enter', function() {
+document.getElementById('addTaskBtn').addEventListener('click' function() {
     //Storing text-value from input box as a variable 'taskInput'
     let taskInput = document.getElementById('taskInput').value
 
@@ -27,7 +27,7 @@ document.getElementById('addTaskBtn').addEventListener('click', 'enter', functio
      displayTasks()
     }
 
-}) document.getElementById('addTaskBtn').addEventListener('keydown')
+}) document.getElementById('addTaskBtn')
 
 
 // Function to display the tasks from tasks[] in the Unordered List below
