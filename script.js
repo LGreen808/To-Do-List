@@ -1,10 +1,7 @@
 document.getElementById('weekDay');
 const weekDay = prompt('What day is it today?');
-if (weekDay === 'Monday') {
-    console.log(weekDay);
-}
-
-
+console.log(weekDay);
+//HOW DO I MAKE THIS ASK WHAT DAY IT IS THEN PUT IT ON THE PAGE?!?!?!
 
 
 
