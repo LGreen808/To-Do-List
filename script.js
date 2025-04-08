@@ -80,6 +80,11 @@ function removeTask (index){
     
      //Call the function to update the task list display
      displayTasks()
+     //This is my task counter that adds a task every time
+     function updatedisplayTasks(displayTasks) {
+        displayTasks++
+        
+    
 
      
 }
