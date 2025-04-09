@@ -74,7 +74,7 @@ function displayTasks () {
 }
 
 // Function to remove a task from the list when the "√" button is clicked
-function removeTask (index){
+function removeTask (index) {
      // Remove the task at the given index from the array
      tasks.splice(index, 1);
     
@@ -85,7 +85,7 @@ function removeTask (index){
         displayTasks++
         
     
-
+     }
      
 }
 
